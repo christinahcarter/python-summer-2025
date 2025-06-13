@@ -1,0 +1,20 @@
+# My first variable bound to an integer object value of one.
+my_first_variable = 1
+
+# My first variable re-assigned to an integer object of two.
+my_first_variable = 2
+
+print(type(my_first_variable))
+# This will return class 'int' because this is a whole number.
+
+print(my_first_variable)
+# This will return 2 because it was reassgined the value of 2.
+
+# You may re-bind a name to a different object type and value.
+my_first_variable = "Now, I am a string"
+
+print(type(my_first_variable))
+#This will return class 'str' because we reassigned my_first_variable
+
+print(my_first_variable)
+#This will return: "Now, I am a string"
