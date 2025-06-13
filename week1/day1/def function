@@ -1,0 +1,27 @@
+# The body of this function is indented by 2 spaces, & prints the sum of two numbers.
+  def add_two_numbers(number_one, number_two)
+      total = number_one + number_two
+  print(total)
+
+  add_two_numbers(3, 4)
+  # This function returns the answer 7.
+  
+# Function definition on first line, explicit return used on final line.
+  def add_two_numbers(number_one, number_two)
+    return number_one + number_two
+
+# Calling the function in the Python terminal returns the sum of the numbers.
+add_two_number(3,4)
+  7
+
+# Assigning the function call to a variable and printing 
+# the variable will also return the value.
+
+  sum_with_return = add_two_numbers(5,6)
+  print(sum_with_return)
+  11
+
+# This function does not have an explicit return. 
+# The word result was used and that will give you nothing if you try to use this function.
+  def add_two_numbers(number_one, number_two):
+  result = number_one + number_two
