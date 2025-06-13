@@ -18,3 +18,15 @@ print(type(my_first_variable))
 
 print(my_first_variable)
 #This will return: "Now, I am a string"
+
+# Constants are written in SCREAMING_SNAKE_CASE. It tells programmers not to change this value.
+PI = 3.14159
+
+PI = 3.14159  # Constant
+
+def area_of_circle(radius):
+    return PI * radius * radius
+
+print(area_of_circle(5))  # Outputs: 78.53975
+
+# Variable is something that you can change. 
