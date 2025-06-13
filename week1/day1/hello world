@@ -1,0 +1,9 @@
+# Using the print function for Hello World.
+# Print displays something on the screen.
+print("Hello, World!")
+
+# Using the def function for printing Hello world.
+  # Def is to define a function. 
+  def hello()
+    return "Hello, World!"
+  
