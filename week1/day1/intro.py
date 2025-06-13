@@ -1,6 +1,6 @@
-name = "Your Name"
-age = 16
-favorite_food = "sushi"
+name = "Christina"
+age = 44
+favorite_food = "steak"
 
 print("Hi! I'm", name)
 print("I'm", age, "years old")
