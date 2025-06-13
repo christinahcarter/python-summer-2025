@@ -1,0 +1,14 @@
+# A docstring is a special kind of comment in Python used to document what a function, class, or module does.
+
+def add(a, b):
+    """
+    Adds two numbers and returns the result.
+
+    Args:
+        a (int): First number.
+        b (int): Second number.
+
+    Returns:
+        int: Sum of a and b.
+    """
+    return a + b
