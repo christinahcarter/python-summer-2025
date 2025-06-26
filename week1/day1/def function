@@ -6,13 +6,13 @@ def greet(name):
 greet("Ali")
 
 
-
+#There are lots of errors in this code. Go through and figure out what is wrong.
 
 
 
 
 # The body of this function is indented by 2 spaces, & prints the sum of two numbers.
-  def add_two_numbers(number_one, number_two)
+  def add_two_numbers(number_one, number_two):
       total = number_one + number_two
   print(total)
 
