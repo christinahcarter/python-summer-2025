@@ -6,4 +6,9 @@ print("Hello, World!")
   # Def is to define a function. 
   def hello()
     return "Hello, World!"
-  
+
+# Using the input to print strings.
+
+ name = input("What’s your name? ")
+print(f"Nice to meet you, {name}!")
+ 
