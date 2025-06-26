@@ -1,0 +1,12 @@
+# Why it is important. 
+#  For validating input and handling empty responses.
+
+# If statements (if answer == "").
+# Loops(while loops for re-asking questions).
+# Break and continue.
+
+while True:
+    name = input("What’s your name? ")
+    if name.strip() != "":
+        break
+    print("Please enter a valid name.")
